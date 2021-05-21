@@ -20,8 +20,8 @@ jobs:
           command: |
               pwd && ls -l
               java -jar dist/aabresguard_0.1.8_r3.jar sign-aab \
-                  --bundle=/app-demo-release.aab \
-                  --output=/app-demo-release-signed.aab \
+                  --bundle=./app-demo-release.aab \
+                  --output=./app-demo-release-signed.aab \
                   --storeFile=/keystore_kaede_testin.jks \
                   --storePassword=123456 \
                   --keyAlias=kaedea.com \

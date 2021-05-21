@@ -1,0 +1,3 @@
+[submodule "submodules/AabResGuard"]
+	path = submodules/AabResGuard
+	url = https://github.com/kaedea/AabResGuard.git
